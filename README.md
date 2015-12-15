@@ -1,6 +1,11 @@
 # CustomView
 CustomView
 
+## #效果图
+
+
+        ![效果图](https://github.com/code4a/CustomView/blob/master/custom.jpg)
+
 ### ArcProgress
 
 ##### 扇形进度条
