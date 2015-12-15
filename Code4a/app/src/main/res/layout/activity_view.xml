@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.code4a.library.view.ArcProgress
+        android:id="@+id/arc_progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        custom:arc_bottom_text="O2"
+        custom:arc_progress="20"
+        custom:arc_stroke_width="6dp" />
+
+    <com.code4a.library.view.ArcProgress
+        android:id="@+id/arc_progress1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/arc_progress"
+        custom:arc_bottom_text="AIR"/>
+
+    <com.code4a.library.view.HistogramView
+        android:id="@+id/histogram_view"
+        android:layout_below="@id/arc_progress"
+        android:layout_margin="10dp"
+        android:layout_width="55dp"
+        android:layout_height="150dp" />
+
+</RelativeLayout>
